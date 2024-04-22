@@ -1,0 +1,157 @@
+body {
+    background-color: blanchedalmond;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(46,84,89);
+    font-size: 16px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo {
+    max-width: 800px;
+}
+
+i {
+    color: rgb(46,84,89);
+    margin-top: 20px;
+}
+
+.join-btn {
+    background-color: rgb(250,217,97);
+    border-style: none;
+    font-size: 24px;
+    padding: 20px, 12px, 12px, 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(46,84,89);
+    font-weight: 600;
+}
+
+.join-btn:hover,
+.join-btn:active,
+.join-btn:focus,
+.join-btn.active {
+    background-color: rgb(247,107,28);
+
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.team-leader-block {
+    max-width: 993px;
+    margin: 0 auto
+  }
+
+.team-leader-box {
+    width: 100%;
+    margin-right: 4%;
+    height: 490px;
+    text-align: center;
+    float: left
+  }
+  
+.team-leader-box span {
+margin-bottom: 24px;
+display: block
+}
+
+.team-leader-box:nth-of-type(3n+0) {
+margin: 0
+}
+
+.team-leader {
+width: auto;
+height: auto;
+position: relative;
+border-radius: 50%;
+box-shadow: 0 0 0 7px rgb(46,84,89);
+margin: 7px 7px 25px
+}
+
+.team-leader-shadow {
+transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out;
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 10;
+border-radius: 50%
+}
+
+.team-leader-shadow a {
+display: block;
+width: 100%;
+height: 100%
+}
+
+.team-leader:hover .team-leader-shadow {
+box-shadow: inset 0 0 0 148px rgba(46,84,89, 200)
+}
+
+.team-leader:hover ul {
+display: block;
+opacity: 1
+}
+
+.team-leader img {
+display: block;
+border-radius: 50%;
+max-width: 280px;
+
+}
+
+.team-leader ul {
+display: block;
+opacity: 0;
+padding: 0;
+margin: -14px 0 0;
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+z-index: 15;
+transition: all .6s ease-in-out;
+-moz-transition: all .6s ease-in-out;
+-webkit-transition: all .6s ease-in-out
+}
+
+.team-leader ul li {
+display: inline;
+margin: 0 11px
+}
+
+.team-leader ul li a {
+font-family: Material-Design-Iconic-Font;
+display: inline-block;
+font-size: 28px;
+color: #fff;
+transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-webkit-transition: all .3s ease-in-out
+}
+
+.team-leader ul li a:focus, .team-leader ul li a:hover {
+text-decoration: none
+}
+
+.team-leader ul li a.zmdi-email:hover {
+color: #555
+}
