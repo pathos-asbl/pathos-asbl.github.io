@@ -1,23 +1,36 @@
 body {
     background-color: blanchedalmond;
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     color: rgb(46,84,89);
     font-size: 16px;
+    width: 882px;
+    margin: auto
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+      width: 90%
+    }
 }
 
 h2 {
     margin-top: 40px;
     font-size: 24px;
     font-weight: 600;
+    text-align: center;
 }
 
 h3 {
-    margin-top: 40px;
     font-size: 16px;
     font-weight: 600;
+    text-align: justify;
+}
+
+p {
+    text-align: left;
 }
 
 .logo {
@@ -51,6 +64,7 @@ i {
 .footer {
     margin-top: 40px;
     font-size: 12px;
+    text-align: center;
 }
 
 .team-leader-block {
